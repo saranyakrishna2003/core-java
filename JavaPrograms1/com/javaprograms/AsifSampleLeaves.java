@@ -15,7 +15,7 @@ public class AsifSampleLeaves {
 		        System.out.println("Enter the NO.of samples collected in each round:");
 
 		        while (true) {
-		            System.out.println("Samples collected in round " + (rounds + 1) + ": ");
+		        	System.out.println("Samples collected in round " + (rounds + 1) + ": ");
 		            int samplesRound = sc.nextInt();
 
 		            if (samplesRound <= 0) {

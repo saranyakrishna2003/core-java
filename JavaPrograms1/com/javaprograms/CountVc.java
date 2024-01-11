@@ -1,13 +1,11 @@
 package com.javaprograms;
 import java.util.Scanner;
 public class CountVc {
-
-
-	
 	public static void main(String[] args) {
 		int vowels=0;
 		int consonant=0;
 		Scanner sc = new Scanner(System.in);
+		//hello computer 
 		System.out.println("Enter the sentence");
 		String s1=sc.nextLine();
 		String s2="";

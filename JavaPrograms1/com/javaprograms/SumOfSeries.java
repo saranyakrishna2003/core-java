@@ -8,7 +8,7 @@ public class SumOfSeries {
 	    public static void main(String[] args) {
 	        Scanner sc = new Scanner(System.in);
 
-	        System.out.print("Enter the value of p =>must be 2.5 or greater: ");
+	        System.out.print("Enter the value of p (must be 2.5 or greater: ");
 	        double p = sc.nextDouble();
 
 	        if (p < 2.5) {
